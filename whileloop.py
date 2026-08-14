@@ -13,5 +13,5 @@ j = 0
 while j < 6:
    j += 1
    if j == 3:
-      continue
+      continue # continue
    print(j)

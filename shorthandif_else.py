@@ -17,3 +17,5 @@ g = 330
 h = 2330
 
 print("G") if g > h else print("=") if g == h else print("h")
+# multiple conditions on one line. 
+# print_1stcondition_else_print_2ndcondition_else_print.......

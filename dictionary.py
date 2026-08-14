@@ -16,10 +16,10 @@ for d in x.values():
 
 d1 = {"fruit": "apple", "color": "red", "taste": "sweet"}
 
-'''d2 = d1.copy()
+d2 = d1.copy()
 
 print(d1)
 print(d2)
-'''
+
 d2 = dict(d1)
 print(d2)

@@ -13,4 +13,5 @@ print(y)
 
 z = list(y)
 
-print(z)
+print(z) # here we converted our list into set to remove duplicate items and converted back to list and printed. 
+ 
