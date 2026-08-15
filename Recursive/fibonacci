@@ -1,0 +1,12 @@
+# this is recursive function to find nth number in fibonacci sequence
+
+# 0, 1, 1, 2, 3, 5, 8, 13, 21, 34 ................
+
+def fibonacci(n):
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n-1) + fibonacci(n-2)
+
+x = int(input("Enter the nth sequence you want to find the fibonacci number of: "))
+print(fibonacci(x))

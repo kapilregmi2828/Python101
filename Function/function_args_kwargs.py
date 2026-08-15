@@ -6,3 +6,5 @@ def fun1(title, *args, **kwargs):
     print("Keyword Arguments:", kwargs)
 
 fun1("User Info", "Kapil", "Regmi", age = 18, city = 'Dallas')
+
+# this is a great example of *args, **kwargs, and regular argumenets. 
