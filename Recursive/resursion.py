@@ -1,5 +1,5 @@
 # Rescursion is when a function call itself. 
-# this is a simple recursive function that counts down to 5
+# this is a simple recursive function that counts down to number (x).
 
 def countdown(n):
     if n <=0:
@@ -10,3 +10,4 @@ def countdown(n):
 
 x = int(input("Enter a number to start countdown! :"))
 countdown(x)
+

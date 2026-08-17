@@ -7,3 +7,4 @@ def sum_list(numbers):
 list1 = list(map(int,input("Enter your list: ").split()))
 
 print(sum_list(list1))
+
