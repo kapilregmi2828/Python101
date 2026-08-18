@@ -1,14 +1,10 @@
-# import mymodule
+import mymodule
 
-# mymodule.greetings("Kapil")
+mymodule.greetings("Kapil")
 
-# a = mymodule.biodata["age"]
-# print(a)
-
-# importing as different variable name
-
-import mymodule as mx
-mx.greetings("Kapil")
-
-a = mx.biodata["City"]
+a = mymodule.biodata["age"]
 print(a)
+
+
+
+
