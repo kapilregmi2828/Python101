@@ -8,3 +8,4 @@ print(x) # The9rain9in9Spain
 
 y = re.sub("\s", "9", txt, 2) # replaces the first 2 occurences only also knows as count parameter
 print(y)
+
