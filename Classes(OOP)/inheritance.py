@@ -4,14 +4,14 @@
 
 # Child Class: The class that inherits from another class (derived class)
 
-class Animal:
+class Animal: # Parent class
     def __init__(self, name):
         self.name = name
 
     def speak(self):
         print(self.name)
 
-class Dog(Animal):
+class Dog(Animal): # child class
     pass
 
 d1 = Dog("Buddy")

@@ -20,4 +20,4 @@ print(p1.age)
 
 print(p1.name)
 del p1.age
-print(p1.age)
+print(p1.age) # will throw an error since the age attribute of object p1 has been deleted. 
