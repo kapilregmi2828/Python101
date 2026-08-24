@@ -11,4 +11,5 @@ print(a)
 print(a.ndim)
 print(a[1,0,1]) # accessing 2nd element of 2nd array of 1st array
 
-print(a[0,1,1] + a[1,1,1])
+print(a[0,1,1] + a[1,1,1]) # prints 10
+
