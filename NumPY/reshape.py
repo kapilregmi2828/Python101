@@ -16,5 +16,5 @@ print(newarr3)
 # flattening the array
 
 arr4 = np.array([[1,2,3],[4,5,6]])
-newarr4 = arr4.reshape(-1)
+newarr4 = arr4.reshape(-1) # -1 reshapes into 1D array. 
 print(newarr4)

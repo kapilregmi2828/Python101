@@ -22,5 +22,5 @@ for x in arr3:
             print(z)
 
 print("------------------------------")
-for x in np.nditer(arr3):
+for x in np.nditer(arr3): # all those nested for loops to iterate through each elements is solved by one line (nditer)
     print(x)
