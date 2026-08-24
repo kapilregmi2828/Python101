@@ -9,7 +9,7 @@ newarr = arr[x]
 print(newarr)
 
 filter_arr = []
-
+# this method is slight complex 
 for element in arr:
     if element > 42:
         filter_arr.append(True)
