@@ -11,7 +11,7 @@ for i,j in zip(x,y):
 
 print(z)
 
-a = [1,2,3,4,5]
+a = [1,2,3,4]
 b = [4,5,6,7]
 c = np.add(a,b)
 print(c)

@@ -10,5 +10,7 @@ myadd = np.frompyfunc(myadd, 2, 1) # Here 2 means 2 inputs and 1 means single ou
 
 print(myadd([1,2,3,4],[5,6,7,8]))
 
-print(type(myadd))
+print(type(myadd)) # prints type of function 
+
+
 

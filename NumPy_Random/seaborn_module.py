@@ -7,4 +7,4 @@ sns.displot([0,1,2,3,4,5])
 plt.show() # shows a histogram
 
 sns.displot([0,1,2,3,4,5], kind = "kde")
-plt.show()
+plt.show() # shows random distribution of data

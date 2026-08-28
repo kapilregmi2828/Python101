@@ -1,5 +1,5 @@
 # divmod() function returns both quotient and mod
-
+# prints 2 array one for quotient and another for remainder
 import numpy as np
 
 arr1 = np.array([10,20,30,40,50,60])

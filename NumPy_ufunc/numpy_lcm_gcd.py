@@ -25,6 +25,6 @@ num4 = 9
 c = np.gcd(num3,num4)
 print(c)
 
-arr3 = np.array([20,8,32,36,16])
+arr3 = np.array([20,8,32,36,16]) # Range
 d = np.gcd.reduce(arr3)
 print(d)
