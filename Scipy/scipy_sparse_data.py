@@ -20,3 +20,4 @@ print(csr_matrix(arr2).count_nonzero())  #count_nonzero() method counts non-zero
 mat = csr_matrix(arr2)
 mat.eliminate_zeros()
 print(mat)
+
