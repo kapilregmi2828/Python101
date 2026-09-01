@@ -9,3 +9,6 @@ print(df.head())
 # default is 5 rows
 
 print(df.tail())
+
+# tail() prints last 5 rows of DataFrame
+
