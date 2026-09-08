@@ -1,0 +1,29 @@
+my_list = [
+    [],[],[],[],[],[],[],[],[],[]
+]
+
+def hash_function(value):
+    sum_of_chars = 0
+    for char in value:
+        sum_of_chars += ord(char)
+
+    return sum_of_chars % 10
+
+def add(name):
+    index = hash_function(name)
+    my_list[index].append(name)
+
+def contain(name):
+    index = hash_function(name)
+    return name in my_list[index]
+
+
+add('Bob')
+add('Pete')
+add('Jones')
+add('Lisa')
+add('Stuart')
+print(my_list)
+print("The unicode index for Bob is:", hash_function('Bob') )
+print("Pete is in the list.", contain('Pete'))
+print("Kaps is in the list.", contain('Kaps'))
